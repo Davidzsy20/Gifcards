@@ -95,7 +95,7 @@ class Amexgif extends Component {
 
   render() {
     const { renderOuput } = this.state;
-    const checkbox = this.state;
+    const {checkbox} = this.state;
     const pandora = renderOuput === ''
       ? <h1>Nothing to Show</h1>
       : (
